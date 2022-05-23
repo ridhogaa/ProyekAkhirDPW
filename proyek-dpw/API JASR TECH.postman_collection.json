@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "20b66fe7-9833-437b-be9c-7c906b98796e",
+		"name": "API JASR TECH",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21088203"
+	},
+	"item": [
+		{
+			"name": "Read Single Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/proyek-dpw/api-product/detail.php?id_akun=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"proyek-dpw",
+						"api-product",
+						"detail.php"
+					],
+					"query": [
+						{
+							"key": "id_akun",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/proyek-dpw/api-product/list.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"proyek-dpw",
+						"api-product",
+						"list.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_akun\": \"5\",\r\n    \"email\": \"jovian@gmail.com\",\r\n    \"no_telp\": \"089500004444\",\r\n    \"password\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/proyek-dpw/api-product/create.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"proyek-dpw",
+						"api-product",
+						"create.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Request",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"angga@yahoo.com\",\r\n    \"no_telp\": \"08192316132\",\r\n    \"password\": \"lol123\",\r\n    \"id_akun\": \"5\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/proyek-dpw/api-product/update.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"proyek-dpw",
+						"api-product",
+						"update.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Request",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_akun\": \"5\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/proyek-dpw/api-product/delete.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"proyek-dpw",
+						"api-product",
+						"delete.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
