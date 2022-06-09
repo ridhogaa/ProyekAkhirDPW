@@ -91,7 +91,7 @@
                         <i class="line mx-3">|</i>
                     </li>
                     <li class="nav-item text-white">
-                        <a href="daftar.php"><button class="text-white" type="button">Daftar</button></a>
+                        <a href="view/daftar.php"><button class="text-white" type="button">Daftar</button></a>
                     </li>
                 </ul>
             </div>
@@ -116,7 +116,7 @@
             <label class="password" for="password">Password</label><br>
             <input class="form-control my-1" type="password" id="password" name="password" autocomplete="off">
             <a class="d-flex justify-content-end" href="view/lupakatasandi.php">Lupa kata sandi?</a>
-            <a href="homepage-pembeli.php">
+            <a href="view/homepage-pembeli.php">
                 <button class="btn-login mt-2 text-white" type="submit" name="login">Login</button>
             </a>
         </form>
